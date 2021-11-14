@@ -7,9 +7,9 @@ This is a simple example of a docker container with PHP-FPM and NGINX.
 
 ## Get it up and run
 
-[Install docker on your machine.][install-docker]
+[Install docker on your computer.][install-docker]
 
-[Install docker-compose on your machine.][install-docker-compose]
+[Install docker-compose on your computer.][install-docker-compose]
 
 Clone this repository.
 
@@ -30,6 +30,10 @@ $ docker-compose up
 ```
 
 Visit `localhost:8080` in your browser.
+
+## PHP
+On this example I use PHP 7.4.
+If you want to change version of php go to php/Dockerfile, and change a PHP version on first line.
 
 [ico-php-version]: https://img.shields.io/badge/PHP-7.4--fpm-blue?style=flat-square
 [ico-nginx-version]: https://img.shields.io/badge/NGINX-1.17-green?style=flat-square
