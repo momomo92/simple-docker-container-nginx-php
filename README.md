@@ -3,9 +3,9 @@
 [![PHP Version][ico-php-version]](https://hub.docker.com/_/php)
 [![NGINX Version][ico-nginx-version]](https://hub.docker.com/_/nginx)
 
-This is a simple example for running a docker container with PHP-FPM and NGINX.
+This is a simple example of a docker container with PHP-FPM and NGINX.
 
-## Get it up and running
+## Get it up and run
 
 [Install docker on your machine.][install-docker]
 
@@ -23,11 +23,13 @@ Switch to the cloned directory.
 $ cd simple-docker-container-nginx-php
 ```
 
-Start the stack.
+Start the docker.
 
 ``` bash
 $ docker-compose up
 ```
+
+Visit `localhost:8080` in your browser.
 
 [ico-php-version]: https://img.shields.io/badge/PHP-7.4--fpm-blue?style=flat-square
 [ico-nginx-version]: https://img.shields.io/badge/NGINX-1.17-green?style=flat-square
