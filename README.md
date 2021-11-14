@@ -27,3 +27,9 @@ Start the stack.
 
 ``` bash
 $ docker-compose up
+```
+
+[ico-php-version]: https://img.shields.io/badge/PHP-7.4--fpm-blue?style=flat-square
+[ico-nginx-version]: https://img.shields.io/badge/NGINX-1.17-green?style=flat-square
+[install-docker]: https://docs.docker.com/engine/installation
+[install-docker-compose]: https://docs.docker.com/compose/install
